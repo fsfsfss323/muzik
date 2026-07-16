@@ -1,3 +1,4 @@
+repeat task.wait() until game:IsLoaded()
 local p=game.Players.LocalPlayer;local g=p.PlayerGui;local h=game.HttpService
 if getgenv().LH then getgenv().LH:Destroy()end
 local ok,d=pcall(function()return readfile("lh_key")end)
